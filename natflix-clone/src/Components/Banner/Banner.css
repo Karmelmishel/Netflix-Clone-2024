@@ -1,8 +1,8 @@
 .banner{
     color: white;
-    object-fit: cover;
+    /* object-fit: cover;
     height: 500px;
-    margin-top: 1px;
+    margin-top: 1px; */
 }
 .banner__contents{
     margin-left: 40px;
@@ -22,7 +22,7 @@
     min-width: 400px;
     height: 80px;
 }
-.banner__button{
+/* .banner__button{
     cursor: pointer;
     color: #fff;
     outline: none;
@@ -32,10 +32,10 @@
     padding: 0.5rem 2rem;
     margin-right: 1rem;
     background-color: rgb(51, 51, 51, 0.5);
-}
+} */
 .banner__button:hover{
-    color: #000;
-    background-color: #e6e6e6;
+    color: #e6e6e6;
+    background-color: #242323;
     transition: all 0.2s;
 }
 .banner__fadeBotton{

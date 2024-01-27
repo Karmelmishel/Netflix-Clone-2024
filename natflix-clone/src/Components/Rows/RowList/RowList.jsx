@@ -4,7 +4,7 @@ import requests from '../../utils/requests'
 const RowList = () => {
   return (
     <>
-      <Row title="NETFLiX ORGINALS" ferchUrl={requests.NetflixOrginal} isLargeRow/>
+      <Row title="NETFLIX ORGINALS" ferchUrl={requests.NetflixOrginal} isLargeRow/>
       <Row title="Trending Now" ferchUrl={requests.Trending}  />
       <Row title="TV Show" ferchUrl={requests.TVShow} />
       <Row title="Top Rated" ferchUrl={requests.TopRatedMovies} />

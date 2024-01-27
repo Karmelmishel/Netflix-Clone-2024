@@ -40,6 +40,7 @@ setTrailerUrl(urlParams.get('v'))
     return (
       <div className="row">
         <h1>{title}</h1>
+       
         <div className="row__posters">
           {movies?.map((movie, i) => {
               let img= (<img onClick={()=>handelClick(movie)} key={i} className={`row__poster ${isLargeRow && 'row__posterLarge'}`}
@@ -49,6 +50,7 @@ setTrailerUrl(urlParams.get('v'))
             />)
             return img
           })}
+          
         </div>
         <div style={{paddind: '40px'}}>
             {trailerUrl && <YouTube videoId={trailerUrl} opts={opts}/>}
