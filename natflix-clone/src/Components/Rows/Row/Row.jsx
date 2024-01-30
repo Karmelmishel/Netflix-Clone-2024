@@ -39,7 +39,7 @@ setTrailerUrl(urlParams.get('v'))
   
     return (
       <div className="row">
-        <h1>{title}</h1>
+        <h1 className=' text-lg font-serif'>{title}</h1>
        
         <div className="row__posters">
           {movies?.map((movie, i) => {
